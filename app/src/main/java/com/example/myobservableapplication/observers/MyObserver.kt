@@ -15,6 +15,6 @@ class MyObserver : MyObserverInterface {
         }
 
     override fun notifyData() {
-        println("el sujeto esta ${mySubjectToBeObserved.state}")
+        println("el sujeto está ${mySubjectToBeObserved.state}")
     }
 }
